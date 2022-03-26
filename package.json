@@ -1,0 +1,26 @@
+{
+  "name": "portal_bibliografico",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/html/index.html",
+  "browserslist": "cover 100%, not dead, not IE 11",
+  "scripts": {
+    "parcel:dev": "parcel",
+    "parcel:build": "parcel build",
+    "clean": "rimraf dist .parcel-cache",
+    "start": "npm-run-all clean parcel:dev",
+    "build": "npm-run-all clean parcel:build"
+  },
+  "author": "Dídac Ortega Escalera <didacoe@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "npm-run-all": "4.1.5",
+    "parcel": "2.4.0",
+    "postcss": "^8.4.12",
+    "postcss-custom-properties": "^12.1.5",
+    "postcss-import": "^14.1.0",
+    "postcss-url": "^10.1.3",
+    "rimraf": "3.0.2"
+  }
+}
