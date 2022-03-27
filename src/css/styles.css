@@ -1,34 +1,51 @@
 /* CSS configuration */
 @import 'config.css';
+@import 'layout.css';
 
-.container {
-  margin: 0 10px 0 10px;
+.entity-banner-section {
+  position: relative;
 }
 
-@media (min-width: 576px) {
-  .container {
-    width: 85%;
-    margin: 0 auto 0 auto;
-  }
+.entity-banner-section figure {
+  margin-top: 0;
+  margin-left: 0;
+  width: 100%;
 }
 
-@media (min-width: 769px) {
-  .container {
-    width: 75%;
-  }
+.entity-banner-section img {
+  height: 265px;
 }
 
-@media (min-width: 992px) {
-  .container {
-    width: 65%;
-  }
+.entity-banner-section figcaption {
+  padding: 0;
 }
 
-@media (min-width: 1200px) {
-  .container {
-    width: 55%;
-  }
+.entity-banner-section h1.banner-title {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  color: rgb(255, 255, 255);
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.8rem;
+  text-align: left;
+  margin: 0;
+  padding: 0;
 }
+
+
+.entity-card-section {
+  margin-bottom: 50px;
+}
+.entity-card-section .card {
+  display: flex;
+  padding: 30px 15px 15px 15px;
+  margin: 13px 0;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px black;
+}
+
 
 footer {
   background-color: black;
