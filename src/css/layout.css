@@ -31,6 +31,10 @@
   display: flex;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 div[class~="dis-flex"] {
   flex-direction: column;
 }
