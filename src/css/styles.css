@@ -72,8 +72,51 @@
   margin: 13px 0;
   background-color: rgb(255, 255, 255);
   border-radius: 5px;
-  box-shadow: 1px 3px 10px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
   height: 200px;
+}
+
+.entity-card-section .card::before {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  content: "";
+  margin: auto;
+  border-radius: 6px;
+  background: rgb(150, 147, 147);
+  opacity: 0.3;
+}
+
+.entity-card-section .card:nth-child(1) {
+  background-image: url("../static/roman-road.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.entity-card-section .card:nth-child(1) {
+  background-image: url("../static/roman-road.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.entity-card-section .card:nth-child(1) {
+  background-image: url("../static/roman-road.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.entity-card-section .card__title, .card__description {
+  color: white;
+}
+
+.entity-card-section .card__text {
+  z-index: 1;
 }
 
 @media (min-width: 992px) {
