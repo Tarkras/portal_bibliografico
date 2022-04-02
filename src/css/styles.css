@@ -90,22 +90,22 @@
   opacity: 0.3;
 }
 
-.entity-card-section .card:nth-child(1) {
-  background-image: url("../static/roman-road.jpg");
+.entity-card-section .container-card:nth-child(1) .card {
+  background-image: url("../static/card-image/ancient-rome.jpg");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
 }
 
-.entity-card-section .card:nth-child(1) {
-  background-image: url("../static/roman-road.jpg");
+.entity-card-section .container-card:nth-child(2) .card {
+  background-image: url("../static/card-image/julius-caesar-bronze-statue.jpg");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
 }
 
-.entity-card-section .card:nth-child(1) {
-  background-image: url("../static/roman-road.jpg");
+.entity-card-section .container-card:nth-child(3) .card {
+  background-image: url("../static/card-image/roman-road.jpg");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
