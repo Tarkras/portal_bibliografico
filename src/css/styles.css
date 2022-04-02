@@ -131,6 +131,29 @@
   }
 }
 
+.entity-card-section .card .right-card-button {
+  position: absolute;
+  left: auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+  z-index: 1;
+  font-weight: 600;
+
+  padding: 10px 15px;
+  line-height: 12px;
+  bottom: 20px;
+  right: 20px;
+}
+
+.entity-card-section .card a {
+  text-decoration: none;
+}
+
+.entity-card-section .card a:hover {
+  background-color: rgb(197, 197, 197);
+  color: white;
+}
+
 footer {
   background-color: black;
   height: 15rem;
