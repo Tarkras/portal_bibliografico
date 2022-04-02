@@ -53,6 +53,16 @@ div[class~="dis-flex"] {
   justify-content: space-around;
 }
 
+.justify-space-between {
+  justify-content: space-between;
+}
+
 .position-relative {
   position: relative;
+}
+
+@media (min-width: 992px) {
+  .w-55 {
+    width: 55%;
+  }
 }
