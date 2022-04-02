@@ -1,0 +1,58 @@
+.container {
+  margin: 0 10px 0 10px;
+}
+
+@media (min-width: 576px) {
+  .container {
+    width: 85%;
+    margin: 0 auto 0 auto;
+  }
+}
+
+@media (min-width: 769px) {
+  .container {
+    width: 75%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 65%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 55%;
+  }
+}
+
+.dis-flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+div[class~="dis-flex"] {
+  flex-direction: column;
+}
+
+@media (min-width: 992px) {
+  div[class~="dis-flex"] {
+    flex-direction: row;
+  }
+
+  div.dis-flex.column {
+    flex-direction: column;
+  }
+}
+
+.justify-space-around {
+  justify-content: space-around;
+}
+
+.position-relative {
+  position: relative;
+}
