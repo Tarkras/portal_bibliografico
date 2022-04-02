@@ -75,6 +75,20 @@ a {
   color:brown;
 }
 
+button {
+  font-family: inherit;
+  font-weight: 700;
+  border: none;
+  padding: 0;
+  color: brown;
+  cursor: pointer;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+
+
 /* *Breakpoints used*
       - Mobile - From 768px to cero (Has middel breakpoint 576px)
       - Tablet - From 991px to 769px -> Min-width: 769px
