@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap');
+
 /* CSS configuration */
 @import 'config.css';
 
@@ -6,7 +8,6 @@
 
 .entity-banner-section {
   position: relative;
-  margin-bottom: 3.125rem;
 }
 
 .entity-banner-section figure {
@@ -37,10 +38,6 @@
 }
 
 .entity-index-presentation-section {
-  margin-bottom: 50px;
-}
-
-.entity-card-section {
   margin-bottom: 50px;
 }
 
@@ -157,6 +154,7 @@
 footer {
   background-color: black;
   height: 15rem;
+  margin-top: auto;
 }
 
 footer .container {

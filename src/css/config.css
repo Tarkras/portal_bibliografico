@@ -1,5 +1,5 @@
 :root {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 400;
 }
 
@@ -7,7 +7,15 @@ body {
   margin: 0;
   color: rgb(0, 0, 0);
   background: radial-gradient(circle, rgba(255,255,255,1) 10%, rgba(240,240,240,1) 50%, rgba(244,244,244,1) 90%);
-  height: 100vh; 
+  height: 100vh;
+}
+
+main {
+  min-height: calc(100% - 15rem);
+}
+
+section {
+  margin-bottom: 3.125rem;
 }
 
 h1 {
@@ -38,6 +46,29 @@ img {
   height: auto;
   object-fit: cover;
   display: block;
+}
+
+figure {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+
+@media (min-width: 992px) {
+  figure {
+    width: 40%;
+  }
+}
+
+figcaption {
+  background-color: rgba(100, 100, 100, 0.5);
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  display: block;
+  padding: 5px 0;
+  bottom: 0;
 }
 
 a {
