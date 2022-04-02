@@ -169,3 +169,22 @@ footer p {
   font-weight: 600;
   text-align: center;
 }
+
+#dots {
+  display: inline;
+}
+
+#read-more {
+  display: none;
+}
+
+i.not-active {
+  width: 10px;
+  height: 10px;
+  content: url("../static/icons/angle-down-solid.svg");
+}
+i.active {
+  width: 10px;
+  height: 10px;
+  content: url("../static/icons/angle-up-solid.svg");
+}
