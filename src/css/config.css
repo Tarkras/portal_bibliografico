@@ -11,7 +11,7 @@ body {
 }
 
 main {
-  min-height: calc(100% - 15rem);
+  min-height: calc(100% - 18.125rem);
 }
 
 section {
@@ -62,7 +62,7 @@ figure {
 }
 
 figcaption {
-  background-color: rgba(100, 100, 100, 0.5);
+  background-color: rgb(100, 100, 100);
   color: white;
   font-weight: bold;
   width: 100%;
@@ -73,6 +73,8 @@ figcaption {
 
 a {
   color: rgb(160, 0, 0);
+  font-weight: 700;
+  text-decoration: none;
 }
 
 a:hover {
