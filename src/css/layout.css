@@ -66,3 +66,7 @@ div[class~="dis-flex"] {
     width: 55%;
   }
 }
+
+.mb-50 {
+  margin-bottom: 50px;
+}

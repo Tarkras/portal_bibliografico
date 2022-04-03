@@ -72,7 +72,11 @@ figcaption {
 }
 
 a {
-  color:brown;
+  color: rgb(160, 0, 0);
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 button {
@@ -80,7 +84,7 @@ button {
   font-weight: 700;
   border: none;
   padding: 0;
-  color: brown;
+  color: rgb(160, 0, 0);;
   cursor: pointer;
 }
 
