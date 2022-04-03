@@ -69,3 +69,31 @@ i.active {
     width: 45%;
   }
 }
+
+.image-height {
+  height: 300px;
+}
+
+@media (min-width: 576px) {
+  .image-height {
+    height: 320px;
+  }
+}
+
+@media (min-width: 769px) {
+  .image-height {
+    height: 300px;
+  }
+}
+
+@media (min-width: 992px) {
+  .image-heightn {
+    height: 190px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .image-height {
+    height: 360px;
+  }
+}
