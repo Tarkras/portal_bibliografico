@@ -6,6 +6,8 @@
 /* CSS Layout */
 @import 'layout.css';
 
+@import 'header.css';
+
 .entity-banner-section {
   position: relative;
 }
@@ -153,7 +155,7 @@
 
 footer {
   background-color: black;
-  height: 15rem;
+  height: 10rem;
   margin-top: auto;
 }
 
