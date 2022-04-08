@@ -53,9 +53,11 @@ function leerMasMenos() {
   }
 }
 
-readMoreButton.addEventListener('click', function() {
-  leerMasMenos();
-});
+if(readMoreButton !== null) {
+  readMoreButton.addEventListener('click', function() {
+    leerMasMenos();
+  });
+}
 
 
 // function navigation(slider) {

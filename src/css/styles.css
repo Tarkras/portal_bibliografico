@@ -87,8 +87,8 @@ i.active {
 }
 
 @media (min-width: 992px) {
-  .image-heightn {
-    height: 190px;
+  .image-height {
+    height: 280px;
   }
 }
 
