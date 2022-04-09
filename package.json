@@ -1,7 +1,7 @@
 {
   "name": "portal_bibliografico",
   "version": "1.0.0",
-  "description": "",
+  "description": "Portal biográfico sobre Julio César (Gaius Julius Caesar) general y politico romano.",
   "source": "src/html/index.html",
   "browserslist": "cover 100%, not dead, not IE 11",
   "scripts": {

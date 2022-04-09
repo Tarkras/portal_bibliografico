@@ -1,10 +1,41 @@
 
-// import KeenSlider from 'keen-slider';
-// import 'keen-slider/keen-slider.min.css';
 const dots = document.getElementById('dots');
 const readMore = document.getElementById('read-more');
 const readMoreButton = document.getElementById('read-more-button');
 const icon = document.getElementById('rm-icon');
+
+
+function leerMasMenos() {
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    readMoreButton.innerHTML = "Leer más";
+    readMore.style.display = "none";
+    icon.classList.remove('active');
+    icon.classList.add('not-active');
+  } else {
+    dots.style.display = "none";
+    readMoreButton.innerHTML = "Leer menos";
+    readMore.style.display = "inline";
+    icon.classList.remove('not-active');
+    icon.classList.add('active');
+  }
+}
+
+if(readMoreButton !== null) {
+  readMoreButton.addEventListener('click', function() {
+    leerMasMenos();
+  });
+}
+
+
+
+
+
+
+
+// import KeenSlider from 'keen-slider';
+// import 'keen-slider/keen-slider.min.css';
+
 // new KeenSlider("#slider", {
 //   loop: true,
 // },
@@ -37,27 +68,8 @@ const icon = document.getElementById('rm-icon');
 //   slider.on("updated", nextTimeout)
 // },])
 
-function leerMasMenos() {
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    readMoreButton.innerHTML = "Leer más";
-    readMore.style.display = "none";
-    icon.classList.remove('active');
-    icon.classList.add('not-active');
-  } else {
-    dots.style.display = "none";
-    readMoreButton.innerHTML = "Leer menos";
-    readMore.style.display = "inline";
-    icon.classList.remove('not-active');
-    icon.classList.add('active');
-  }
-}
 
-if(readMoreButton !== null) {
-  readMoreButton.addEventListener('click', function() {
-    leerMasMenos();
-  });
-}
+
 
 
 // function navigation(slider) {
