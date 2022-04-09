@@ -11,7 +11,7 @@ body {
 }
 
 main {
-  min-height: calc(100% - 18.125rem);
+  min-height: calc(100% - 21.125rem);
 }
 
 section, article {
@@ -44,6 +44,10 @@ p {
 p, span {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+li {
+  margin-bottom: 10px;
 }
 
 img {

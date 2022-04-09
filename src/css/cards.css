@@ -67,6 +67,10 @@
   color: white;
 }
 
+.entity-card-section .card__description {
+  font-weight: 600;
+}
+
 .entity-card-section .card__text {
   z-index: 1;
 }
