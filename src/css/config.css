@@ -11,7 +11,7 @@ body {
 }
 
 main {
-  min-height: calc(100% - 18.125rem);
+  min-height: calc(100% - 21.125rem);
 }
 
 section, article {
@@ -46,6 +46,10 @@ p, span {
   line-height: 1.25rem;
 }
 
+li {
+  margin-bottom: 10px;
+}
+
 img {
   max-width: 100%;
   width: 100%;
@@ -58,6 +62,13 @@ figure {
   width: 100%;
   margin: 20px auto 20px auto;
   text-align: center;
+  align-self: center;
+}
+
+@media (min-width: 576px) {
+  figure {
+    max-width: 80%;
+  }
 }
 
 @media (min-width: 769px) {
@@ -69,6 +80,7 @@ figure {
 @media (min-width: 992px) {
   figure {
     max-width: 60%;
+    align-self: initial;
   }
 }
 

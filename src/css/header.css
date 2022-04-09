@@ -42,6 +42,7 @@ nav ul {
 
 nav ul li {
   padding: 5px 10px;
+  margin-bottom: 0;
 }
 
 @media (min-width: 992px) {
