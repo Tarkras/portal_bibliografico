@@ -19,6 +19,6 @@
     "rimraf": "3.0.2"
   },
   "dependencies": {
-    "keen-slider": "^6.6.5"
+    "keen-slider": "6.6.5"
   }
 }
