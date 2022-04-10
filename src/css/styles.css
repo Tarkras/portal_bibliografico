@@ -130,3 +130,7 @@ article .article__intro-image {
   height: 20px;
   object-fit: none;
 }
+
+.keen-slider__slide--grey-background {
+  background-color: rgb(150, 147, 147);
+}
