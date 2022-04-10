@@ -1,44 +1,9 @@
-// import KeenSlider from 'keen-slider';
-// import 'keen-slider/keen-slider.min.css';
 import {tns} from 'tiny-slider';
 const dots = document.getElementById('dots');
 const readMore = document.getElementById('read-more');
 const readMoreButton = document.getElementById('read-more-button');
 const icon = document.getElementById('rm-icon');
 const sliderBanner = document.getElementById('slider-banner');
-const sliderDots = document.querySelectorAll('button[aria-controls]');
-
-// new KeenSlider("#slider-banner", {
-//   loop: true,
-// },
-// [(slider) => {
-//   let timeout
-//   let mouseOver = false
-//   function clearNextTimeout() {
-//     clearTimeout(timeout)
-//   }
-//   function nextTimeout() {
-//     clearTimeout(timeout)
-//     if (mouseOver) return
-//     timeout = setTimeout(() => {
-//       slider.next()
-//     }, 2000)
-//   }
-//   slider.on("created", () => {
-//     slider.container.addEventListener("mouseover", () => {
-//       mouseOver = true
-//       clearNextTimeout()
-//     })
-//     slider.container.addEventListener("mouseout", () => {
-//       mouseOver = false
-//       nextTimeout()
-//     })
-//     nextTimeout()
-//   })
-//   slider.on("dragStarted", clearNextTimeout)
-//   slider.on("animationEnded", nextTimeout)
-//   slider.on("updated", nextTimeout)
-// },])
 
 function leerMasMenos() {
   if (dots.style.display === "none") {
