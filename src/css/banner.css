@@ -1,0 +1,30 @@
+.entity-banner-section {
+  position: relative;
+}
+
+.entity-banner-section figure {
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+.entity-banner-section img {
+  height: 265px;
+}
+
+.entity-banner-section figcaption {
+  padding: 0;
+}
+
+.entity-banner-section h1 {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  color: rgb(255, 255, 255);
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 2.8rem;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}

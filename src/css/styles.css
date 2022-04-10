@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css');
+
 /* CSS configuration */
 @import 'config.css';
 
@@ -8,39 +9,9 @@
 
 @import 'header.css';
 @import 'footer.css';
+@import 'banner.css';
 @import 'breadcrumb.css';
 @import 'cards.css';
-
-.entity-banner-section {
-  position: relative;
-}
-
-.entity-banner-section figure {
-  margin: 0;
-  width: 100%;
-  max-width: 100%;
-}
-
-.entity-banner-section img {
-  height: 265px;
-}
-
-.entity-banner-section figcaption {
-  padding: 0;
-}
-
-.entity-banner-section h1 {
-  position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
-  color: rgb(255, 255, 255);
-  font-size: 1.8rem;
-  font-weight: 600;
-  line-height: 2.8rem;
-  text-align: left;
-  margin: 0;
-  padding: 0;
-}
 
 .entity-index-presentation-section {
   margin-bottom: 50px;
@@ -131,10 +102,9 @@ article .article__intro-image {
   object-fit: none;
 }
 
-.keen-slider__slide--grey-background {
+.slider__slide--grey-background {
   background-color: rgb(150, 147, 147);
 }
-
 
 .tns-nav {
   margin-top: 10px;
