@@ -1,7 +1,13 @@
 footer {
   background-color: black;
-  height: 16rem;
+  height: 24rem;
   margin-top: auto;
+}
+
+@media (min-width: 992px) {
+  footer {
+    height: 18rem;
+  }
 }
 
 footer .container {
@@ -15,4 +21,54 @@ footer p {
   margin: 0;
   font-weight: 600;
   text-align: center;
+}
+
+footer a {
+  color: white;
+  font-weight: 800;
+  text-decoration: underline solid white 3px;
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: ease 0.8s;
+}
+
+footer ul.dis-flex {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (min-width: 992px) {
+  footer ul.dis-flex {
+    align-items: unset;
+    flex-direction: row;
+  }
+}
+
+footer ul.dis-flex li {
+  padding: 0 5px;
+}
+
+footer img {
+  color: white;
+}
+
+.footer-image {
+  background: url(../static/spqr-logo.svg);
+  background-size: 100px 60px;
+  background-repeat: no-repeat;
+  background-color: azure;
+  background-position: center;
+  height: 80px;
+  width: 120px;
+  margin: 0 auto 16px auto;
+  object-fit: inherit;
+  clip-path: ellipse();
 }

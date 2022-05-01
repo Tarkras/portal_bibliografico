@@ -61,6 +61,10 @@ div[class~="dis-flex"] {
   justify-content: center;
 }
 
+.align-center {
+  align-content: center;
+}
+
 .position-relative {
   position: relative;
 }
@@ -89,4 +93,8 @@ div[class~="dis-flex"] {
 
 .mt-16 {
   margin-top: 1rem;
+}
+
+.w-100 {
+  width: 100%;
 }
