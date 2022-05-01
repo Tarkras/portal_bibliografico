@@ -8,13 +8,18 @@
 
   <link rel="stylesheet" href="../css/styles.css" />
   <script type="module" src="../js/app.js"></script>
-  <link rel="icon" href="../static/logo.svg" type="image/x-icon" />
+  <link rel="icon" href="../static/spqr-logo.svg" type="image/x-icon" />
 </head>
 <body>
   <header>
     <div class="container">
       <div>
-        <a href="index.html"><img class="logo" src="../static/logo.svg" alt="Logo"></a>
+        <div class="logo-container">
+          <a href="index.html"><img class="logo" src="../static/page-logo.svg" alt="Logo"></a>
+        </div>
+        <p class="page-title">
+          Portal biográfico
+        </p>
       </div>
       <nav>
         <ul class="dis-flex">
@@ -53,11 +58,11 @@
         <button id="read-more-button" >Leer más</button><i id="rm-icon" class="not-active"></i>
       </div>
     </section>
-    <section class="entity-card-section">
+    <section class="entity-card-section m-0">
       <!--CARDS-->
       <div class="container dis-flex justify-space-around">
 
-        <div class="card-container">
+        <div class="card-container slide-left-index first-card-index">
           <div class="card">
             <img class="card__image" src="../static/card-image/ancient-rome.jpg" alt="Vista aerea del coliseo romano">
             <div class="card__text">
@@ -68,7 +73,7 @@
           </div>
         </div>
 
-        <div class="card-container">
+        <div class="card-container second-card-index">
           <div class="card">
             <img class="card__image" src="../static/statue-julius-caesar.jpg" alt="Estatu de bronze de Julio César">
             <div class="card__text">
@@ -79,7 +84,7 @@
           </div>
         </div>
         
-        <div class="card-container">
+        <div class="card-container slide-right-index third-card-index">
           <div class="card">
             <img class="card__image" src="../static/card-image/roman-road.jpg" alt="Carretera romana">
             <div class="card__text">
@@ -91,10 +96,22 @@
 
         </div>
       </div>
+      <div class="container w-100">
+        <img class="column-clip" src="../static/rome-colosseum.jpg" alt="Colíseo de Roma">
+      </div>
     </section>
   </main>
   <footer>
     <div class="container">
+      <div class="footer-image">
+      </div>
+      <div>
+        <ul class="dis-flex justify-center">
+          <li><a href="./categorias.html">Categorias</a></li>
+          <li><a href="./presentacion.html">Presentación</a></li>
+          <li><a href="./enlaces.html">Enlaces</a></li>
+        </ul>
+      </div>
       <p>Trabajo realizado por Dídac Ortega Escalera. Asignatura: Herramientas HTML y CSS</p>
       <div class="dis-flex mt-16 justify-center">
         <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img class="img-license" alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>

@@ -1,0 +1,37 @@
+<svg version="1.1"
+     width="290" height="250"
+     xmlns="http://www.w3.org/2000/svg">
+    <defs>
+    <clipPath id="cut-off-top-bottom-left">
+      <rect x="25" y="17.5" width="120" height="12.5" />
+    </clipPath>
+    <clipPath id="cut-off-top-bottom-right">
+      <rect x="150" y="17.5" width="120" height="12.5" />
+    </clipPath>
+    <clipPath id="cut-off-bottom-bottom-left">
+      <rect x="25" y="177.5" width="120" height="12.5" />
+    </clipPath>
+    <clipPath id="cut-off-bottom-bottom-right">
+      <rect x="150" y="177.5" width="120" height="12.5" />
+    </clipPath>
+  </defs>
+  
+  <rect x="25" y="30" width="120" height="160"/>
+  <line x1="50" x2="120" y1="50" y2="50" stroke="white" stroke-width="5"/>
+  <line x1="50" x2="90" y1="70" y2="70" stroke="white" stroke-width="5"/>
+  <line x1="50" x2="120" y1="90" y2="90" stroke="white" stroke-width="5"/>
+  <line x1="50" x2="100" y1="110" y2="110" stroke="white" stroke-width="5"/>
+  <line x1="50" x2="120" y1="130" y2="130" stroke="white" stroke-width="5"/>
+  <ellipse cx="85" cy="30" rx="60" ry="12.5" clip-path="url(#cut-off-top-bottom-left)"/>
+  <ellipse cx="85" cy="190" rx="60" ry="12.5" fill="rgb(255, 255, 255)" clip-path="url(#cut-off-bottom-bottom-left)"/>
+  
+  <rect x="150" y="30" width="120" height="160" />
+  <line x1="175" x2="245" y1="50" y2="50" stroke="white" stroke-width="5"/>
+  <line x1="175" x2="215" y1="70" y2="70" stroke="white" stroke-width="5"/>
+  <line x1="175" x2="245" y1="90" y2="90" stroke="white" stroke-width="5"/>
+  <line x1="175" x2="225" y1="110" y2="110" stroke="white" stroke-width="5"/>
+  <line x1="175" x2="245" y1="130" y2="130" stroke="white" stroke-width="5"/>
+  <ellipse cx="210" cy="30" rx="60" ry="12.5" clip-path="url(#cut-off-top-bottom-right)"/>
+  <ellipse cx="210" cy="190" rx="60" ry="12.5" fill="rgb(255, 255, 255)" clip-path="url(#cut-off-bottom-bottom-right)"/>
+  
+</svg>

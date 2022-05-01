@@ -1,3 +1,6 @@
+.entity-card-section {
+  min-height: 364px;
+}
 .entity-card-section .card-container {
   box-sizing: border-box;
   margin: 1rem .25em;
@@ -24,12 +27,15 @@
   position: relative;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3), 0 5px 10px rgba(0, 0, 0, 0.2);
   border-radius: 6px;
+  background: rgb(76 75, 75);
+  color: white;
+  transition: ease-in-out 0.5s;
 }
 
 .entity-card-section .card:hover {
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
   transform: translateY(-20px);
-  transition: 0.5s;
+  transition: ease-in-out 0.5s;
 }
 
 .entity-card-section .card::before {
@@ -97,4 +103,16 @@
 .entity-card-section .card a:hover {
   background-color: rgb(160, 0, 0);
   color: white;
+}
+
+.entity-card-section .first-card-index {
+  z-index: 1;
+}
+
+.entity-card-section .second-card-index {
+  z-index: 2;
+}
+
+.entity-card-section .third-card-index {
+  z-index: 3;
 }
