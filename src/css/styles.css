@@ -149,3 +149,9 @@ article .article__intro-image {
    3% 80%, 2% 83%, 0% 83% 
   );
 }
+
+.img-responsive {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}

@@ -52,8 +52,7 @@ li {
 
 img {
   max-width: 100%;
-  width: 100%;
-  height: auto;
+  margin: 0 auto;
   object-fit: cover;
   display: block;
   font-weight: 600;
@@ -61,6 +60,7 @@ img {
 
 figure {
   width: 100%;
+  max-width: 416;
   margin: 20px auto 20px auto;
   text-align: center;
   align-self: center;
@@ -68,19 +68,25 @@ figure {
 
 @media (min-width: 576px) {
   figure {
-    max-width: 80%;
+    max-width: 432px;
   }
 }
 
 @media (min-width: 769px) {
   figure {
-    max-width: 70%;
+    max-width: 489px;
   }
 }
 
 @media (min-width: 992px) {
   figure {
-    max-width: 60%;
+    max-width: 584px;
+  }
+}
+
+@media (min-width: 1200px) {
+  figure {
+    max-width: 855px;
     align-self: initial;
   }
 }
