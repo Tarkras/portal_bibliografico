@@ -23,7 +23,8 @@
 
 @media (min-width: 1200px) {
   .container {
-    width: 55%;
+    width: 60%;
+    max-width: 1140px;
   }
 }
 
@@ -93,6 +94,15 @@ div[class~="dis-flex"] {
 
 .mt-16 {
   margin-top: 1rem;
+}
+
+.mw-0 {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.w-0 {
+  width: 0;
 }
 
 .w-100 {

@@ -40,36 +40,46 @@
     <article>
       <div class="container">
         <h1>La Guerra de las Galias</h1>
-        <div>
+        <picture>
+          <source srcset="../../static/pagina-detalles/guerra-galias/imagen-destacada/siege-alesia-vercingetorix-cesar-1100w.jpg" media="(min-width: 1501px)" />
+          <source srcset="../../static/pagina-detalles/guerra-galias/imagen-destacada/siege-alesia-vercingetorix-cesar-910w.jpg" media="(min-width: 992px)" />
+          <source srcset="../../static/pagina-detalles/guerra-galias/imagen-destacada/siege-alesia-vercingetorix-cesar-720w.jpg" media="(min-width: 769px)" />
+          <source srcset="../../static/pagina-detalles/guerra-galias/imagen-destacada/siege-alesia-vercingetorix-cesar-540w.jpg" media="(max-width: 768px)" />
+          <img class="w-100" src="../../static/pagina-detalles/guerra-galias/imagen-destacada/siege-alesia-vercingetorix-cesar-1100w.jpg" alt="Enceuntro entre Vercingetórix y César depués del asedio de Alesia">
+        </picture>
+        <div class="mt-16">
           <time  datetime="2022-04-09"><span>9 de abril de 2022</span></time>
           <p>Por <strong>Dídac Ortega Escalera</strong></p>
         </div>
-        <div class="dis-flex justify-space-between mb-50">
-          <figure class="article__intro-image">
-            <img src="../../static/guerra-galias/Caesar_campaigns_gaul-en.svg" alt="Diferentes campañas militares en la Galia">
-            <figcaption><span>Movimientos militares en cada campaña militar dentro de la campaña de la Guerra de las Galias</span></figcaption>
-          </figure>
-          <div class="article__intro-text">
-            <p>
-              <strong>La guerra de las Galias</strong> fue un conflicto militar librado entre el procónsul romano <strong>Julio César</strong> y las tribus galas entre el año 58 a.c. y 51 a.c. Este conflicto militar acabo con la República romana sometiendo a la Galia
-              después de la batalla de Alesia en el 52 a.c, donde los romanos pusieron fin a la resistencia organizada de los galos. Esta decisiva victoria romana supuso 
-              la expansión de la República romana sobre todo el territorio galo.
-            </p>
-            <p>
-              Pese a que César justificó esta invasión como una acción defensiva preventiva, la mayoría de los historiadores coinciden en que el principal motivo de la campaña 
-              fue potenciar la carrera política del general y cancelar sus grandes deudas. No obstante, nadie puede obviar la importancia militar de este territorio para los 
-              romanos, quienes habían sufrido varios ataques por parte de tribus bárbaras provenientes tanto de la Galia como del norte de esa tierra.
-            </p>
-            <p>Dicha campaña se puede dividir en distintas campañas militares en el transcurso de los años 58 a.c. y 51 a.c:</p>
-            <ul>
-              <li><a href="#guerra-helvecios"><span>Guerra contra los helvecios</span></a></li>
-              <li><a href="#guerra-suevos"><span>La guerra contra los suevos</span></a></li>
-              <li><a href="#conflicto-belgas"><span>Conflicto con los belgas</span></a></li>
-              <li><a href="#expediciones-punitivas"><span>Expediciones punitivas</span></a></li>
-              <li><a href="#consolidacion-rebeliones"><span>Consolidación y rebeliones</span></a></li>
-            </ul>
+        <section>
+          <h2>Introducción</h2>
+          <div class="dis-flex justify-space-between">
+            <figure class="article__intro-image">
+              <img src="../../static/pagina-detalles/guerra-galias/Caesar_campaigns_gaul-en.svg" alt="Diferentes campañas militares en la Galia">
+              <figcaption><span>Movimientos militares en cada campaña militar dentro de la campaña de la Guerra de las Galias</span></figcaption>
+            </figure>
+            <div class="article__intro-text">
+              <p>
+                <strong>La guerra de las Galias</strong> fue un conflicto militar librado entre el procónsul romano <strong>Julio César</strong> y las tribus galas entre el año 58 a.c. y 51 a.c. Este conflicto militar acabo con la República romana sometiendo a la Galia
+                después de la batalla de Alesia en el 52 a.c, donde los romanos pusieron fin a la resistencia organizada de los galos. Esta decisiva victoria romana supuso 
+                la expansión de la República romana sobre todo el territorio galo.
+              </p>
+              <p>
+                Pese a que César justificó esta invasión como una acción defensiva preventiva, la mayoría de los historiadores coinciden en que el principal motivo de la campaña 
+                fue potenciar la carrera política del general y cancelar sus grandes deudas. No obstante, nadie puede obviar la importancia militar de este territorio para los 
+                romanos, quienes habían sufrido varios ataques por parte de tribus bárbaras provenientes tanto de la Galia como del norte de esa tierra.
+              </p>
+              <p>Dicha campaña se puede dividir en distintas campañas militares en el transcurso de los años 58 a.c. y 51 a.c:</p>
+              <ul>
+                <li><a href="#guerra-helvecios"><span>Guerra contra los helvecios</span></a></li>
+                <li><a href="#guerra-suevos"><span>La guerra contra los suevos</span></a></li>
+                <li><a href="#conflicto-belgas"><span>Conflicto con los belgas</span></a></li>
+                <li><a href="#expediciones-punitivas"><span>Expediciones punitivas</span></a></li>
+                <li><a href="#consolidacion-rebeliones"><span>Consolidación y rebeliones</span></a></li>
+              </ul>
+            </div>
           </div>
-        </div>
+        </section>
         <section class="mb-50">
           <h2>Contexto inicial del conflicto</h2>
           <p>Tras su año consular, César recibió poderes proconsulares para gobernar las provincias de la <strong>Galia Transalpina</strong> (actualmente el sur de Francia) e <strong>Iliria</strong> 
@@ -85,8 +95,13 @@
             decidio impedirlo con la excusa de que amenazarian demasiado a las provincias de la Galia Cisalpina, las cuales gobernaba en ese momento.
           </p>
           <figure>
-            <img class="image-height" src="../../static/guerra-galias/Cesare_prima_Gallia_58_a.C.jpg" alt="Mapa del mundo romano">
-            <figcaption><span>Mapa del mundo romano antes de la conquista de la Galia (58 a.c.)</span></figcaption>
+            <img 
+              sizes="(max-width: 575px) 416px, (max-width: 768px) 489px, (max-width: 1199px) 584px, 855px"
+              srcset="../../static/pagina-detalles/guerra-galias/imagen-cesare-prima/cesare-prima-58ac-416w.jpg 416w, ../../static/pagina-detalles/guerra-galias/imagen-cesare-prima/cesare-prima-58ac-489w.jpg 489w, ../../static/pagina-detalles/guerra-galias/imagen-cesare-prima/cesare-prima-58ac-584w.jpg 584w, ../../static/pagina-detalles/guerra-galias/imagen-cesare-prima/cesare-prima-58ac-855w.jpg 855w"
+              src="../../static/pagina-detalles/guerra-galias/imagen-cesare-prima/cesare-prima-58ac-855w.jpg" 
+              alt="Mapa del mundo romano antes de la conquista de la Galia">
+            <!-- <img class="image-height" src="../../static/guerra-galias/Cesare_prima_Gallia_58_a.C.jpg" alt="Mapa del mundo romano"> -->
+            <figcaption><span>Mapa del mundo romano antes de la conquista de la Galia (58 a.c.) - Territorio en Amarillo</span></figcaption>
           </figure>
         </section>
         <section class="mb-50">
@@ -254,8 +269,12 @@
               a su jefe, que fue apresado.
             </p>
             <figure>
-              <img class="image-height" src="../../static/guerra-galias/Siege-alesia-vercingetorix-jules-cesar.jpg" alt="Vercingetórix deponiendo sus armas">
-              <figcaption><span>Vercingetórix deponiendo sus armas a los pies de César despues del asedio de Alesia</span></figcaption>
+              <img 
+                sizes="(max-width: 575px) 416px, (max-width: 768px) 489px, (max-width: 1199px) 584px, 855px"
+                srcset="../../static/pagina-detalles/guerra-galias/imagen-cesare-dopo/cesare-dopo-gallia-50ac-416w.jpg 416w, ../../static/pagina-detalles/guerra-galias/imagen-cesare-dopo/cesare-dopo-gallia-50ac-489w.jpg 489w, ../../static/pagina-detalles/guerra-galias/imagen-cesare-dopo/cesare-dopo-gallia-50ac-584w.jpg 584w, ../../static/pagina-detalles/guerra-galias/imagen-cesare-dopo/cesare-dopo-gallia-50ac-855w.jpg 855w"
+                src="../../static/pagina-detalles/guerra-galias/imagen-cesare-dopo/cesare-dopo-gallia-50ac-855w.jpg" 
+                alt="Mapa del mundo romano despues de la conquista de la Galia">
+              <figcaption><span>Mapa del mundo romano despues de la conquista de la Galia (50 a.c.) - Territorio en Amarillo</span></figcaption>
             </figure>
           </section>
         </section>
