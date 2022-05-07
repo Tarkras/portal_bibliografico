@@ -27,7 +27,7 @@
   position: relative;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3), 0 5px 10px rgba(0, 0, 0, 0.2);
   border-radius: 6px;
-  background: rgb(76 75, 75);
+  background: rgb(76, 75, 75);
   color: white;
   transition: ease-in-out 0.5s;
 }
