@@ -68,12 +68,6 @@ figure {
 
 @media (min-width: 576px) {
   figure {
-    max-width: 432px;
-  }
-}
-
-@media (min-width: 769px) {
-  figure {
     max-width: 489px;
   }
 }

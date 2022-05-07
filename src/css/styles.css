@@ -155,36 +155,3 @@ article .article__intro-image {
   width: 100%;
   height: auto;
 }
-
-.image-width {
-  width: 100%;
-  max-width: 416;
-  margin: 0 auto 0 auto;
-  text-align: center;
-  align-self: center;
-}
-
-@media (min-width: 576px) {
-  .image-width {
-    max-width: 432px;
-  }
-}
-
-@media (min-width: 769px) {
-  .image-width {
-    max-width: 489px;
-  }
-}
-
-@media (min-width: 992px) {
-  .image-width {
-    max-width: 584px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .image-width {
-    max-width: 855px;
-    align-self: initial;
-  }
-}
