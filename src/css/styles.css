@@ -26,12 +26,17 @@
   display: none;
 }
 
-i.not-active::before {
+#rm-icon {
+  cursor: pointer;
+  display: inline;
+}
+
+span.not-active::before {
   width: 10px;
   height: 10px;
   content: "\02C5";
 }
-i.active::before {
+span.active::before {
   width: 10px;
   height: 10px;
   content: "\02C4";

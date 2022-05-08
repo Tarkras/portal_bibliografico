@@ -9,7 +9,13 @@
 }
 
 .entity-banner-section img {
-  height: 265px;
+  height: 450px;
+}
+
+@media (min-width: 1501px) {
+  .entity-banner-section img {
+    height: 600px;
+  }
 }
 
 .entity-banner-section figcaption {
@@ -27,4 +33,8 @@
   text-align: left;
   margin: 0;
   padding: 0;
+}
+
+.entity-banner-section h1 {
+  font-size: 2.3rem;
 }
