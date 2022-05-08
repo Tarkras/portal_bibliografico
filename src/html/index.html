@@ -128,7 +128,7 @@
 
     <section class="entity-last-added-article m-0">
       <div class="container">
-        <h1>Ultimos articulos</h1>
+        <h1>Ultimo articulo añadido</h1>
         <div class="article-added">
           <div class="article-added__body-text">
             <div class="article-added__description">
@@ -138,7 +138,14 @@
                 <a class="article-added__button" href="./detalles/guerra-galias.html"><span>Saber más</span></a>
             </div>
           </div>
-          <img class="column-clip m-0 w-100" src="../static/pagina-detalles/guerra-galias/imagen-destacada/siege-alesia-vercingetorix-cesar-1100w.jpg" alt="Colíseo de Roma">
+          <picture>
+            <source srcset="../static/pagina-inicio/imagen-clip-path/siege-alesia-vercingetorix-cesar-1100w.jpg" media="(min-width: 1501px)" />
+            <source srcset="../static/pagina-inicio/imagen-clip-path/siege-alesia-vercingetorix-cesar-910w.jpg" media="(min-width: 992px)" />
+            <source srcset="../static/pagina-inicio/imagen-clip-path/siege-alesia-vercingetorix-cesar-720w.jpg" media="(min-width: 769px)" />
+            <source srcset="../static/pagina-inicio/imagen-clip-path/siege-alesia-vercingetorix-cesar-540w.jpg" media="(max-width: 768px)" />
+            <img class="column-clip m-0 w-100" src="../static/pagina-inicio/imagen-clip-path/siege-alesia-vercingetorix-cesar-1100w.jpg" alt="Enceuntro entre Vercingetórix y César depués del asedio de Alesia">
+          </picture>
+                
         </div>
       </div>
     </section>
