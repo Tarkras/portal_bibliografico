@@ -88,6 +88,14 @@ div[class~="dis-flex"] {
   margin: 0;
 }
 
+.mb-8 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-14 {
+  margin-bottom: 14px;
+}
+
 .mb-16 {
   margin-bottom: 1rem;
 }
