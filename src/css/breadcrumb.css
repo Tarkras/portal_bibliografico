@@ -5,13 +5,13 @@
   flex-direction: row;
 }
 
-.entity-breadcrumb-section ul li i.breadcrumb-icon::before {
+.entity-breadcrumb-section ul li span.breadcrumb-icon::before {
   width: 10px;
   height: 10px;
   content: " \02C3";
 }
 
-.entity-breadcrumb-section ul li i.breadcrumb-icon::after {
+.entity-breadcrumb-section ul li span.breadcrumb-icon::after {
   content: "";
   margin-right: 5px;
 }
