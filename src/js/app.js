@@ -25,23 +25,26 @@ if(readMoreButton !== null) {
   readMoreButton.addEventListener('click', function() {
     leerMasMenos();
   });
+  icon.addEventListener('click', function() {
+    leerMasMenos();
+  });
 }
 
-var slider = tns({
-  container: '#slider-banner',
-  items: 1,
-  slideBy: 1,
-  autoplay: true,
-  autoplayButton: false,
-  autoplayButtonOutput: false,
-  controls: false,
-  controlsContainer: false,
-  nav: true,
-  navPosition: 'bottom',
-  mouseDrag: true
-});
-
 if(sliderBanner) {
+  var slider = tns({
+    container: '#slider-banner',
+    items: 1,
+    slideBy: 1,
+    autoplay: true,
+    autoplayButton: false,
+    autoplayButtonOutput: false,
+    controls: false,
+    controlsContainer: false,
+    nav: true,
+    navPosition: 'bottom',
+    mouseDrag: true
+  });
+
   document.querySelector('.tns-nav').addEventListener('click', function() {
     slider.play();
   })
