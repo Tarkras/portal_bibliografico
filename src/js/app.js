@@ -42,7 +42,8 @@ if(sliderBanner) {
     controlsContainer: false,
     nav: true,
     navPosition: 'bottom',
-    mouseDrag: true
+    mouseDrag: true,
+    lazyload: true
   });
 
   document.querySelector('.tns-nav').addEventListener('click', function() {
