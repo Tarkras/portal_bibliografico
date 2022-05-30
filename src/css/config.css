@@ -73,25 +73,6 @@ figure {
   }
 }
 
-/* @media (min-width: 576px) {
-  figure {
-    max-width: 489px;
-  }
-}
-
-@media (min-width: 992px) {
-  figure {
-    max-width: 584px;
-  }
-}
-
-@media (min-width: 1200px) {
-  figure {
-    max-width: 855px;
-    align-self: initial;
-  }
-} */
-
 figcaption {
   background-color: rgb(100, 100, 100);
   color: white;

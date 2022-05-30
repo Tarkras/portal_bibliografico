@@ -222,3 +222,7 @@ article .article__intro-image {
   background-color: rgb(160, 0, 0);
   color: white;
 }
+
+.entity-index-presentation-section {
+  min-height: 150px;
+}
